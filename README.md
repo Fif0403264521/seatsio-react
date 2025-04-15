@@ -21,8 +21,8 @@ import { SeatsioSeatingChart } from '@seatsio/seatsio-react';
 
 <div style={{ 'height': '500px' }}>
     <SeatsioSeatingChart
-        workspaceKey="<yourPublicWorkspaceKey>"
-        event="<yourEventKey>"
+        workspaceKey="<b4243974-2119-4534-9e16-d5ef5ddb0e03>"
+        event="<1a9fcce2-2b5d-42fa-8a52-c2ee659ab49f>"
         region="eu"
     />
 </div>
@@ -38,13 +38,12 @@ The chart uses 100% of the width and height of the DOM element (e.g. a div) in w
 import { SeatsioSeatingChart, Pricing } from "@seatsio/seatsio-react";
 
 const pricing: Pricing = [
-    { category: '1', price: 30},
-    { category: '2', price: 40}
+    { category: '1', price: 5},
 ]
 
 <SeatsioSeatingChart
-    workspaceKey="<yourPublicWorkspaceKey>"
-    event="<yourEventKey>"
+    workspaceKey="<yourPublicWorkspac>"
+    event="<1a9fcce2-2b5d-42fa-8a52-c2ee659ab49f>"
     pricing={pricing}
     region="eu"
 />
@@ -68,7 +67,7 @@ onObjectSelected: (object) => {
 
 ```jsx
 <SeatsioSeatingChart
-    workspaceKey="<yourPublicWorkspaceKey>"
+    workspaceKey="<b4243974-2119-4534-9e16-d5ef5ddb0e03>"
     event="<yourEventKey>"
     onRenderStarted={chart => { ... }}
     region="eu"
